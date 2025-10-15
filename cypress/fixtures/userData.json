@@ -1,0 +1,18 @@
+
+ {
+    "SignIn": {
+        "firstName": "FirstName",
+        "lastName": "LastName",
+        "userName": "UserName",
+        "passwrd": "Pass123Word",
+        "confirmPassword": "Pass123Word"
+    },
+    "UserSuccess": {
+        "userName": "UserName",
+        "passwrd": "Pass123Word"
+    },
+    "UserFail": {
+        "UserName": "Teste123",
+        "PassWord": "123"
+    }
+}
