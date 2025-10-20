@@ -7,7 +7,7 @@ class SignUpPage{
             firstNameField: "[name='firstName']",
             lastNameField: "[name='lastName']",
             userNameField: "[name='username']",
-            passwrdField: "[name='password']",
+            passwordField: "[name='password']",
             confirmPassword: "[name='confirmPassword']",
             signUpPageButton: "[data-test='signup']",
             submitButton: "[type='submit']"
@@ -27,7 +27,7 @@ class SignUpPage{
         cy.get(this.selectorslist().firstNameField).type(firstName)
         cy.get(this.selectorslist().lastNameField).type(lastName)
         cy.get(this.selectorslist().userNameField).type(password)
-        cy.get(this.selectorslist().passwrdField).type(password)
+        cy.get(this.selectorslist().passwordField).type(password)
         cy.get(this.selectorslist().confirmPassword).type(password)
         cy.get(this.selectorslist().submitButton).click()
     }

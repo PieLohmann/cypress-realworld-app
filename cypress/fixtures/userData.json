@@ -4,15 +4,15 @@
         "firstName": "FirstName",
         "lastName": "LastName",
         "userName": "UserName",
-        "passwrd": "Pass123Word",
-        "confirmPassword": "Pass123Word"
+        "password": "TestPassWord098",
+        "confirmPassword": "TestPassWord098"
     },
     "UserSuccess": {
-        "userName": "UserName",
-        "passwrd": "Pass123Word"
+        "userName": "Heath93",
+        "password": "s3cret"
     },
     "UserFail": {
-        "UserName": "Teste123",
-        "PassWord": "123"
+        "userName": "Teste123",
+        "password": "s3cret"
     }
 }
