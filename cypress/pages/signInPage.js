@@ -18,7 +18,7 @@ class SignInPage{
         cy.get(this.Selectorslist().userNameField).type(userName)
         cy.get(this.Selectorslist().passwordField).type(password)
         cy.get(this.Selectorslist().submitButton).click()
-        cy.contains("Ted P")
+        cy.contains("Account Balance")
     }
 
     loginWithInvalidCredentials(userName,password) {
@@ -26,6 +26,13 @@ class SignInPage{
         cy.get(this.Selectorslist().passwordField).type(password)
         cy.get(this.Selectorslist().submitButton).click()
         
+    }
+
+    loginWithNewUser(userName,password) {
+        cy.get(this.Selectorslist().userNameField).type(userName)
+        cy.get(this.Selectorslist().passwordField).type(password)
+        cy.get(this.Selectorslist().submitButton).click()
+        cy.get('.NavDrawer-amount').should('exist')
     }
 
 }

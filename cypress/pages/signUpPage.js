@@ -26,7 +26,7 @@ class SignUpPage{
     signUpCredentials(firstName,lastName,userName,password,confirmPassword) {
         cy.get(this.selectorslist().firstNameField).type(firstName)
         cy.get(this.selectorslist().lastNameField).type(lastName)
-        cy.get(this.selectorslist().userNameField).type(password)
+        cy.get(this.selectorslist().userNameField).type(userName)
         cy.get(this.selectorslist().passwordField).type(password)
         cy.get(this.selectorslist().confirmPassword).type(password)
         cy.get(this.selectorslist().submitButton).click()

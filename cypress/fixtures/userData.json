@@ -1,11 +1,11 @@
 
  {
     "SignIn": {
-        "firstName": "FirstName",
-        "lastName": "LastName",
-        "userName": "UserName",
-        "password": "TestPassWord098",
-        "confirmPassword": "TestPassWord098"
+        "firstName": "Mariana",
+        "lastName": "Silva",
+        "userName": "silva.mari",
+        "password": "s3cret",
+        "confirmPassword": "s3cret"
     },
     "UserSuccess": {
         "userName": "Heath93",
@@ -14,5 +14,10 @@
     "UserFail": {
         "userName": "Teste123",
         "password": "s3cret"
+    },
+
+    "Payment": {
+        "sufficientBalance": "500.00",
+        "insufficientBalance": "3000.00"    
     }
 }
